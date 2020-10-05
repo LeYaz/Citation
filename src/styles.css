@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    /* Height and width fallback for older browsers. */
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    /* Set the height to match that of the viewport. */
+    height: 100vh;
+
+    /* Set the width to match that of the viewport. */
+    width: 100vw;
+
+    /* Remove any browser-default margins. */
+    margin: 0;
+}

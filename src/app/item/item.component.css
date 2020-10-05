@@ -1,0 +1,24 @@
+.item{
+    background-color: black;
+    color: blanchedalmond;
+  
+}
+
+h3{
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+   
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+

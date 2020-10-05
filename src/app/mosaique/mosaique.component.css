@@ -1,0 +1,27 @@
+.mosaique {
+    width: 100%;
+    min-height: 100%;
+    background-color: #e55039;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.items{
+    background-color: #f8c291;
+    color: #b71540;
+    margin: auto;
+    width: 28%;
+    height: auto;
+    padding: 15px;
+    flex-shrink: 0;
+    transition: 1s;
+    border-radius: 5px;
+    box-shadow: 5px 3px 3px grey;
+    
+    
+}
+.items:hover {
+    background-color: #e58e26;
+    cursor: pointer;
+    box-shadow: 5px 3px 3px black;
+}
